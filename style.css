@@ -106,7 +106,7 @@ hr{
 }
 .half-width{
     width: 40%;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 .half-width img{
     width: 85%;
@@ -129,7 +129,7 @@ hr{
     .bonus-sec{
         margin-bottom: 150px;
     }
-    .subscribe-box{
+    .subscribe{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -141,16 +141,17 @@ hr{
         margin-top: 60px;
         margin-bottom: 150px;
     }
-    .subscribe-btn{
-        text-decoration: none;
+    .submit-button{
         background-color: tomato;
-        padding: 8px 40px;
+        padding: 10px 40px;
+        border: 0;
+        margin-left: -10px;
         border-radius:0 5px 5px 0;
         color: white;    font-weight: 700;
     }
-    .designed-input{
+    .email-box{
         width: 300px;
-        height: 38px;
+        height: 40px;
         padding-left: 10px;
         outline: 0;
         border: 0;
@@ -162,13 +163,12 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 177px;
+        height: 170px;
         background-color: black;
         
     }
-    .footer-text{
-        font-family: 'Tangerine', cursive;
-        color: tomato;
+    footer h1{
+        color: orangered;
         font-size: 50px;
         font-weight: 700;
         text-align: center;
